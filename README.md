@@ -1,26 +1,25 @@
-# Rainfall Prediction with Machine Learning
+# Machine Learning Projects
 
-This project explores whether tomorrow’s rainfall can be predicted using today’s weather observations from the Melbourne region.
+A collection of applied machine learning projects focused on
+classification, similarity search, feature engineering, and model evaluation.
 
-I compared two classification models:
+## Projects
 
-- Random Forest
-- Logistic Regression
+### 01 — Rainfall Prediction
 
-The workflow includes data preprocessing, train/test splitting, model tuning, evaluation, and feature-importance analysis.
+Predicting next-day rainfall using weather observations from the Melbourne region.
 
-## Results
+**Models:** Random Forest, Logistic Regression  
+**Topics:** Classification, preprocessing, pipelines, cross-validation, class imbalance, feature importance
 
-Random Forest performed slightly better overall:
+[View project](./01-rainfall-prediction/)
 
-- Accuracy: 84%
-- Precision for rain: 76%
-- Recall for rain: 50%
+---
 
-Logistic Regression achieved:
+### 02 — Similar Material Finder
 
-- Accuracy: 83%
-- Precision for rain: 68%
-- Recall for rain: 51%
+A machine learning project for identifying similar materials based on structured product characteristics.
 
-The main limitation is that both models still miss about half of the actual rainy days.
+**Topics:** Similarity search, feature engineering, categorical data, nearest-neighbor methods
+
+[View project](./02-similar-material-finder/)
