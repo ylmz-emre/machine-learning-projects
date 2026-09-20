@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private / generated data
+/data/*.xlsx
+/data/*.xls
+/data/*.csv
+/data/*.parquet
+/data/*.feather
+/data/*.pkl
+/data/*.joblib
+outputs/
+artifacts/
+
+# Keep the data folder documentation
+!/data/README.md
