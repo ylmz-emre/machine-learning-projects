@@ -33,8 +33,8 @@ Performance varies substantially across material groups, suggesting that some ca
 
 | Material Group |  Top-1 |  Top-3 |
 | -------------- | -----: | -----: |
-| ORME           | 34.27% | 52.81% |
-| DOKUMA         | 63.08% | 75.27% |
+| KNIT           | 34.27% | 52.81% |
+| WOVEN          | 63.08% | 75.27% |
 | DENIM          | 63.46% | 82.69% |
 
 ### 2. Confidence-Based Decision Layer
